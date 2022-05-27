@@ -10,9 +10,9 @@ A simple FastAPI application.
 Description
 ============
 
-This is a simple FastAPI application is used to calculate the nearest 10 earthquakes form a given latitude and longitude.
-The application fetches the list of earthquakes that happened during last 30 days from `USGS <https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson>`_
-Calculates the distance between given latitude and longitude and each of the earthquakes using Haversine Formula.
+This is a simple FastAPI application which is used to calculate the nearest 10 earthquakes from a given latitude and longitude.
+The application fetches the list of earthquakes that happened during last 30 days from `USGS <https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson>`_.
+Calculates the distance between the given latitude and longitude with    each of the earthquakes using Haversine Formula.
 Removes the duplicate latitude and longitude, when two earthquakes happened in exactly the same location.
 Returns 10 earthquakes with the shortest distance to the given city.
 
